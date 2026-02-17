@@ -1,9 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Playfair+Display:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #4C84B5;
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  font-family: 'Poppins', sans-serif;
+  color: #f0f4f8;
+  line-height: 1.6;
+  min-height: 100vh;
 }
+
+/* Navbar Styling */
+.navbar {
+  background: linear-gradient(90deg, #0f3460 0%, #1a5f7a 100%) !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  padding: 1rem 0;
+}
+
+.navbar-brand {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #64b5f6 !important;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #e0f4ff !important;
+  text-shadow: 0 0 10px rgba(100, 181, 246, 0.5);
+}
+
+.nav-link {
+  font-weight: 600;
+  color: #e0f4ff !important;
+  transition: all 0.3s ease;
+  margin-left: 1.5rem;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}
+
+.nav-link:hover {
+  color: #64b5f6 !important;
+  border-bottom: 2px solid #64b5f6;
+  padding-bottom: 0.5rem;
+}
+
+/* Heading Styles */
 h1 {
-  color: #B57D4C;
+  font-family: 'Playfair Display', serif;
+  color: #ffffff;
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin: 2rem 0 1rem;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  letter-spacing: -1px;
 }
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  color: #dfe6e9;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 1.5rem 0 1rem;
+  letter-spacing: -0.5px;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  color: #64b5f6;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 1rem 0 0.5rem;
+}
+
+/* Paragraph and Text Styles */
 p {
-  color: rgb(3, 4, 14);
+  color: #e0f4ff;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+a {
+  color: #64b5f6;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #e0f4ff;
+  text-decoration: underline;
+}
+
+/* Container Styling */
+.container {
+  padding: 2rem;
+}
+
+/* Button Styling */
+.btn-primary {
+  background: linear-gradient(135deg, #42a5f5 0%, #1976d2 100%) !important;
+  border: none;
+  font-weight: 600;
+  padding: 0.8rem 2rem;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(25, 118, 210, 0.4);
+}
+
+/* Text Center Styling */
+.text-center {
+  text-align: center;
 }
