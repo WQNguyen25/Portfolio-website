@@ -125,3 +125,81 @@ a:hover {
 .text-center {
   text-align: center;
 }
+
+.professional-list {
+  color: #e0f4ff;
+  font-size: 1.05rem;
+  padding-left: 1.25rem;
+}
+
+.professional-list li {
+  margin-bottom: 0.65rem;
+}
+
+.btn-outline-light {
+  border-radius: 50px;
+  font-weight: 600;
+  padding: 0.8rem 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.lead {
+  color: #dfeff8;
+  font-size: 1.35rem;
+}
+
+.cv-document {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem;
+  background: #f8fbfd;
+  color: #1a2b3c;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.22);
+  border-radius: 4px;
+}
+
+.cv-document h2,
+.cv-document h3,
+.cv-document h4 {
+  color: #1a5f7a;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: none;
+}
+
+.cv-document h2 {
+  font-size: 2.2rem;
+}
+
+.cv-document h3 {
+  border-bottom: 2px solid #64b5f6;
+  padding-bottom: 0.35rem;
+  margin-top: 1.75rem;
+}
+
+.cv-document h4 {
+  font-size: 1.05rem;
+  margin-top: 1.1rem;
+  font-weight: 700;
+}
+
+.cv-document p,
+.cv-document li,
+.cv-document a {
+  color: #26384a;
+  font-size: 1rem;
+}
+
+.cv-document ul {
+  padding-left: 1.25rem;
+}
+
+.cv-document li {
+  margin-bottom: 0.45rem;
+}
+
+@media (max-width: 576px) {
+  .cv-document {
+    padding: 1.25rem;
+  }
+}
